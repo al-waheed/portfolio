@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="min-h-screen w-full flex items-center justify-center bg-slate-900 py-32 px-6">
       <div className="max-w-6xl w-full">
-        <h2 className="text-5xl md:text-6xl font-bold mb-12 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent text-center">
+        <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent text-center">
           About Me
         </h2>
 

@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+import { useState } from "react";
+import Navigation from "./components/Navigation";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPage] = useState("home");
 
   const handleNavigate = (page: string) => {
     setCurrentPage(page);
@@ -15,13 +15,13 @@ function App() {
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'home':
+      case "home":
         return <Hero onNavigate={handleNavigate} />;
-      case 'about':
+      case "about":
         return <About />;
-      case 'projects':
+      case "projects":
         return <Projects />;
-      case 'skills':
+      case "skills":
         return <Skills />;
       default:
         return <Hero onNavigate={handleNavigate} />;
@@ -30,14 +30,14 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-900">
-      {currentPage !== 'home' && <Navigation onNavigate={handleNavigate} currentPage={currentPage} />}
+      {currentPage !== "home" && (
+        <Navigation onNavigate={handleNavigate} currentPage={currentPage} />
+      )}
       {renderPage()}
-      {currentPage !== 'home' && (
+      {currentPage !== "home" && (
         <footer className="bg-slate-950 py-6 px-6 border-t border-slate-800">
           <div className="max-w-7xl mx-auto text-center">
-            <p className="text-slate-400">
-              Morenikeji Ajisegiri © 2025
-            </p>
+            <p className="text-slate-400">Morenikeji Ajisegiri © 2025</p>
           </div>
         </footer>
       )}
