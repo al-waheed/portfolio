@@ -1,4 +1,4 @@
-import { Github, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink } from "lucide-react";
 
 interface Project {
   id: number;
@@ -14,39 +14,82 @@ export default function Projects() {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with real-time inventory management and secure payment processing.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com',
-      tags: ['React', 'Node.js', 'MongoDB'],
+      title: "Document manager",
+      description:
+        "Document manager is a powerful solution for managing documents and creating professional invoices in one place.",
+      image: "/portfolio/05.png",
+      githubUrl: "https://github.com/al-waheed/document-manager",
+      liveUrl: "https://savedoc.netlify.app/",
+      tags: ["React", "Redux Toolkit", "TailwindCss", "Vite"],
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'Collaborative project management tool with real-time updates and team collaboration features.',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com',
-      tags: ['TypeScript', 'React', 'Firebase'],
+      title: "Event Management Hub (Uncompleted)",
+      description:
+        "Event Management Hub is a simplified application to create, manage, and grow your events from registrations, verification to invitation.",
+      image: "/portfolio/9.png",
+      githubUrl: "https://github.com/al-waheed/event-management-hub",
+      liveUrl: "https://eventmanagementhub.netlify.app/",
+      tags: [
+        "React",
+        "React Query",
+        "TailwindCss",
+        "Vite",
+        "Formik",
+        "Firebase",
+        "Firestore",
+        "Framer Motion",
+      ],
     },
     {
       id: 3,
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for tracking social media metrics across multiple platforms.',
-      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com',
-      tags: ['React', 'Chart.js', 'API'],
+      title: "ArenaDrip",
+      description:
+        "ArenaDrip is an E-commerce web app that facilitate online transactions of goods and services through means of the transfer of information and funds over the internet.",
+      image: "/portfolio/02.jpg",
+      githubUrl: "https://github.com/al-waheed/ArenaDrip",
+      liveUrl: "https://arenadrip.netlify.app/",
+      tags: ["React", "Context API", "Stripe"],
     },
     {
       id: 4,
-      title: 'Weather Forecast App',
-      description: 'Beautiful weather application with detailed forecasts and location-based recommendations.',
-      image: 'https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=800',
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com',
-      tags: ['React', 'API', 'Tailwind'],
+      title: "Network Banner (NPM Package)",
+      description:
+        "A lightweight React component and hook to monitor network connectivity and display a customizable banner when your app goes offline, has poor connection, or comes back online.",
+      image: "/portfolio/8.png",
+      githubUrl: "https://github.com/al-waheed/react-network-banner",
+      liveUrl: "https://www.npmjs.com/package/react-network-banner",
+      tags: ["React", "Typescript", "TailwindCss"],
+    },
+    {
+      id: 5,
+      title: "Blog Hyper",
+      description:
+        "Blog Hyper share Your Story with the World by creating, editing, and sharing beautiful blog posts, adding comments, expressing your thoughts, and connecting with readers around the globe.",
+      image: "/portfolio/01.png",
+      githubUrl: "https://github.com/al-waheed/blog",
+      liveUrl: "https://bloghyper.netlify.app/",
+      tags: ["React", "TailwindCss", "Vite", "Redux Toolkit", "Formik"],
+    },
+    {
+      id: 6,
+      title: "Weather Info",
+      description:
+        "Weather Info is a simple app that helps you stay updated with real-time weather conditions anywhere in the world.",
+      image: "/portfolio/03.jpg",
+      githubUrl: "https://github.com/al-waheed/weatherforecast",
+      liveUrl: "https://weathersinfo.netlify.app/",
+      tags: ["React", "API"],
+    },
+    {
+      id: 7,
+      title: "Spender (Website)",
+      description:
+        "Spender is a demo website that showcases a simple platform for managing spending with card plans, low fees, quick signup, and rewards.",
+      image: "/portfolio/07.png",
+      githubUrl: "https://github.com/al-waheed/spender",
+      liveUrl: "https://spender.netlify.app/",
+      tags: ["React", "TailwindCss"],
     },
   ];
 
@@ -73,7 +116,6 @@ export default function Projects() {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">
                   {project.title}

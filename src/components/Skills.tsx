@@ -1,36 +1,54 @@
-import { Code2, Database, Layout, Smartphone, Server, GitBranch } from 'lucide-react';
+import { Code2, Database, Layout, Server, GitBranch } from "lucide-react";
 
 export default function Skills() {
   const skillCategories = [
     {
       icon: <Code2 className="w-8 h-8" />,
-      title: 'Frontend Development',
-      skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'HTML/CSS'],
+      title: "Frontend Development",
+      skills: [
+        "React",
+        "Redux Tookit/Context Api",
+        "JavaScript/HTML/CSS",
+        "React Query",
+        "Webflow",
+        "TypeScript",
+        "Tailwind CSS",
+      ],
     },
     {
       icon: <Server className="w-8 h-8" />,
-      title: 'Backend Development',
-      skills: ['Node.js', 'Express', 'REST APIs', 'GraphQL', 'Python'],
+      title: "Backend Development",
+      skills: ["Firebase", "Node.js", "Express", "REST APIs", "GraphQL"],
     },
     {
       icon: <Database className="w-8 h-8" />,
-      title: 'Databases',
-      skills: ['PostgreSQL', 'MongoDB', 'Supabase', 'Redis', 'Firebase'],
+      title: "Databases",
+      skills: ["MongoDB", "Firebase", "Firestore"],
     },
     {
       icon: <Layout className="w-8 h-8" />,
-      title: 'UI/UX Design',
-      skills: ['Figma', 'Responsive Design', 'Wireframing', 'Prototyping', 'User Research'],
+      title: "UI/UX Design & Opimization",
+      skills: [
+        "Figma",
+        "Responsive Design",
+        "User Research",
+        "SEO",
+        "Google Analytics",
+        "Google Tag Manager",
+      ],
     },
     {
       icon: <GitBranch className="w-8 h-8" />,
-      title: 'Tools & Workflow',
-      skills: ['Git', 'GitHub', 'VS Code', 'Docker', 'CI/CD'],
-    },
-    {
-      icon: <Smartphone className="w-8 h-8" />,
-      title: 'Mobile Development',
-      skills: ['React Native', 'Progressive Web Apps', 'Mobile-First Design', 'App Store Deploy'],
+      title: "Tools & Workflow",
+      skills: [
+        "Git",
+        "GitHub",
+        "Notion",
+        "Linear",
+        "Trello",
+        "VS Code",
+        "CI/CD",
+      ],
     },
   ];
 
@@ -45,9 +63,9 @@ export default function Skills() {
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {skillCategories.map((category, index) => (
+          {skillCategories.map((category, i) => (
             <div
-              key={index}
+              key={i}
               className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700 hover:border-cyan-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 hover:-translate-y-2"
             >
               <div className="flex items-center gap-4 mb-4">

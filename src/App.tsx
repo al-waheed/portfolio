@@ -33,10 +33,10 @@ function App() {
       {currentPage !== 'home' && <Navigation onNavigate={handleNavigate} currentPage={currentPage} />}
       {renderPage()}
       {currentPage !== 'home' && (
-        <footer className="bg-slate-950 py-8 px-6 border-t border-slate-800">
+        <footer className="bg-slate-950 py-6 px-6 border-t border-slate-800">
           <div className="max-w-7xl mx-auto text-center">
             <p className="text-slate-400">
-              © 2025 Your Name. Built with React, TypeScript, and Tailwind CSS.
+              Morenikeji Ajisegiri © 2025
             </p>
           </div>
         </footer>

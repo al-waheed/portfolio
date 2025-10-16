@@ -12,40 +12,40 @@ export default function Hero({ onNavigate }: HeroProps) {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent animate-gradient leading-tight">
-              Your Name
+              Morenikeji Abdulwaheed Ajisegiri
             </h1>
 
             <p className="text-2xl md:text-3xl text-slate-300 font-semibold">
-              Full Stack Developer & Creative Problem Solver
+              Frontend Engineer & Creative Problem Solver
             </p>
 
             <p className="text-lg text-slate-400 leading-relaxed">
-              Crafting beautiful, functional, and user-centered digital experiences
+              Crafting beautiful, scalable, and responsive user interfaces with
+              a focus on performance and usability.
             </p>
 
             <div className="flex gap-4 flex-wrap">
               <button
-                onClick={() => onNavigate('about')}
+                onClick={() => onNavigate("about")}
                 className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-semibold hover:shadow-xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
               >
                 Explore My Work
               </button>
               <button
-                onClick={() => onNavigate('projects')}
+                onClick={() => onNavigate("projects")}
                 className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
               >
                 View Projects
               </button>
             </div>
           </div>
-
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-600/20 border border-cyan-500/30 backdrop-blur-sm flex items-center justify-center overflow-hidden">
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="w-64 h-64 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-white text-8xl font-bold shadow-2xl">
-                  A
-                </div>
-              </div>
+            <div className="w-full h-full flex items-center justify-center">
+              <img
+                src="portfolio/profile_pic.PNG"
+                alt="profile_pic"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="absolute -z-10 inset-0 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 blur-3xl"></div>
           </div>
