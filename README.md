@@ -54,6 +54,6 @@ It presents an engaging experience through clean design, fluid animations, and r
 
 ## 🌟 Live Demo
 
-👉 [View Portfolio](https://moreniekejis.netlify.app)
+👉 [View Portfolio](https://morenikejis.netlify.app)
 
 ---
