@@ -24,6 +24,24 @@ export default function Projects() {
     },
     {
       id: 2,
+      title: "Groceries",
+      description:
+        "A modern and user-friendly eCommerce platform that connects people with clean, fresh, and healthy organic produce. Built for customers who love nature and care deeply about what they eat.",
+      image: "/portfolio/14.png",
+      githubUrl: "https://github.com/al-waheed/groceries",
+      liveUrl: "https://farmfood.netlify.app/",
+      tags: [
+        "React",
+        "Redux",
+        "TailwindCss",
+        "MongoDB",
+        "ExpressJS",
+        "NodeJS",
+        "Stripe Payment API",
+      ],
+    },
+    {
+      id: 3,
       title: "Event Management Hub (Uncompleted)",
       description:
         "Event Management Hub is a simplified application to create, manage, and grow your events from registrations, verification to invitation.",
@@ -42,17 +60,17 @@ export default function Projects() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "ArenaDrip",
       description:
         "ArenaDrip is an E-commerce web app that facilitate online transactions of goods and services through means of the transfer of information and funds over the internet.",
       image: "/portfolio/02.jpg",
       githubUrl: "https://github.com/al-waheed/ArenaDrip",
       liveUrl: "https://arenadrip.netlify.app/",
-      tags: ["React", "Context API", "Stripe"],
+      tags: ["React", "Context API", "Stripe Payment API"],
     },
     {
-      id: 4,
+      id: 5,
       title: "Network Banner (NPM Package)",
       description:
         "A lightweight React component and hook to monitor network connectivity and display a customizable banner when your app goes offline, has poor connection, or comes back online.",
@@ -62,7 +80,7 @@ export default function Projects() {
       tags: ["React", "Typescript", "TailwindCss"],
     },
     {
-      id: 5,
+      id: 6,
       title: "Blog Hyper",
       description:
         "Blog Hyper share Your Story with the World by creating, editing, and sharing beautiful blog posts, adding comments, expressing your thoughts, and connecting with readers around the globe.",
@@ -72,7 +90,7 @@ export default function Projects() {
       tags: ["React", "TailwindCss", "Vite", "Redux Toolkit", "Formik"],
     },
     {
-      id: 6,
+      id: 7,
       title: "Weather Info",
       description:
         "Weather Info is a simple app that helps you stay updated with real-time weather conditions anywhere in the world.",
@@ -82,7 +100,7 @@ export default function Projects() {
       tags: ["React", "API"],
     },
     {
-      id: 7,
+      id: 8,
       title: "Spender (Website)",
       description:
         "Spender is a demo website that showcases a simple platform for managing spending with card plans, low fees, quick signup, and rewards.",
