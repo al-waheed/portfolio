@@ -11,7 +11,7 @@ export default function Hero({ onNavigate }: HeroProps) {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent animate-gradient leading-tight">
+            <h1 className="text-5xl mt-10 md:text-7xl md:mt-0 font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent animate-gradient leading-tight">
               Morenikeji Abdulwaheed Ajisegiri
             </h1>
 
@@ -24,16 +24,16 @@ export default function Hero({ onNavigate }: HeroProps) {
               a focus on performance and usability.
             </p>
 
-            <div className="flex gap-4 flex-wrap">
+            <div className="flex gap-2 flex-wrap md:gap-4">
               <button
                 onClick={() => onNavigate("about")}
-                className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-semibold hover:shadow-xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
+                className="px-5 py-3 md:px-8 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-semibold hover:shadow-xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
               >
                 Explore My Work
               </button>
               <button
                 onClick={() => onNavigate("projects")}
-                className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
+                className="px-5 py-3 md:px-8 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
               >
                 View Projects
               </button>
