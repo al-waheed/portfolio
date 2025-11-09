@@ -23,7 +23,7 @@ It presents an engaging experience through clean design, fluid animations, and r
   Subtle, smooth transitions and motion effects with Framer Motion.
 
 - 🌈 **Responsive Design**  
-  Tailwind-powered layouts that adapt beautifully to all devices.
+  Tailwind powered layouts that adapt beautifully to all devices.
 
 - ⚡ **Optimized Performance**  
   Lightweight architecture built with Vite for blazing-fast load times.
