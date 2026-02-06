@@ -47,7 +47,7 @@ export default function Projects() {
         "Event Management Hub is a simplified application to create, manage, and grow your events from registrations, verification to invitation.",
       image: "/portfolio/9.png",
       githubUrl: "https://github.com/al-waheed/event-management-hub",
-      liveUrl: "https://eventmanagementhub.netlify.app/",
+      liveUrl: "https://eventcloud.netlify.app/",
       tags: [
         "React",
         "React Query",
