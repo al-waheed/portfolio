@@ -41,25 +41,6 @@ export default function Projects() {
       ],
     },
     {
-      id: 3,
-      title: "Event Management Hub (Uncompleted)",
-      description:
-        "Event Management Hub is a simplified application to create, manage, and grow your events from registrations, verification to invitation.",
-      image: "/portfolio/9.png",
-      githubUrl: "https://github.com/al-waheed/event-management-hub",
-      liveUrl: "https://eventmanagementhub.netlify.app/",
-      tags: [
-        "React",
-        "React Query",
-        "TailwindCss",
-        "Vite",
-        "Formik",
-        "Firebase",
-        "Firestore",
-        "Framer Motion",
-      ],
-    },
-    {
       id: 4,
       title: "ArenaDrip",
       description:
@@ -77,7 +58,7 @@ export default function Projects() {
       image: "/portfolio/8.png",
       githubUrl: "https://github.com/al-waheed/react-network-banner",
       liveUrl: "https://www.npmjs.com/package/react-network-banner",
-      tags: ["React", "Typescript", "TailwindCss"],
+      tags: ["React", "Typescript", "TailwindCss", "CI/CD"],
     },
     {
       id: 6,
@@ -90,24 +71,23 @@ export default function Projects() {
       tags: ["React", "TailwindCss", "Vite", "Redux Toolkit", "Formik"],
     },
     {
-      id: 7,
-      title: "Weather Info",
+      id: 3,
+      title: "Event Management Hub (Uncompleted)",
       description:
-        "Weather Info is a simple app that helps you stay updated with real-time weather conditions anywhere in the world.",
-      image: "/portfolio/03.jpg",
-      githubUrl: "https://github.com/al-waheed/weatherforecast",
-      liveUrl: "https://weathersinfo.netlify.app/",
-      tags: ["React", "API"],
-    },
-    {
-      id: 8,
-      title: "Spender (Website)",
-      description:
-        "Spender is a demo website that showcases a simple platform for managing spending with card plans, low fees, quick signup, and rewards.",
-      image: "/portfolio/07.png",
-      githubUrl: "https://github.com/al-waheed/spender",
-      liveUrl: "https://spender.netlify.app/",
-      tags: ["React", "TailwindCss"],
+        "Event Management Hub is a simplified application to create, manage, and grow your events from registrations, verification to invitation.",
+      image: "/portfolio/9.png",
+      githubUrl: "https://github.com/al-waheed/event-management-hub",
+      liveUrl: "https://eventmanagementhub.netlify.app/",
+      tags: [
+        "React",
+        "React Query",
+        "TailwindCss",
+        "Vite",
+        "Formik",
+        "Firebase",
+        "Firestore",
+        "Framer Motion",
+      ],
     },
   ];
 

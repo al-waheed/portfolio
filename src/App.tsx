@@ -37,7 +37,7 @@ function App() {
       {currentPage !== "home" && (
         <footer className="bg-slate-950 py-6 px-6 border-t border-slate-800">
           <div className="max-w-7xl mx-auto text-center">
-            <p className="text-slate-400">Morenikeji Ajisegiri © 2025</p>
+            <p className="text-slate-400">Morenikeji Ajisegiri © 2026</p>
           </div>
         </footer>
       )}
