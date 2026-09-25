@@ -17,7 +17,7 @@ export default function Projects() {
       title: "Lurevia Properties",
       description:
         "LUREVIA Properties is a fictional premium real-estate brand focused on residential properties, property discovery, agents, and client enquiries.",
-      image: "/portfolio/Screenshot 2026-09-25 at 13.40.48.png",
+      image: "/portfolio/landing.png",
       githubUrl: "https://github.com/al-waheed/lurevia-properties",
       liveUrl: "https://lureviaproperties.netlify.app/",
       tags: ["React", "Lucide", "Typescript", "TailwindCss", "Vite"],
