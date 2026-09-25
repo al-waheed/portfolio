@@ -13,17 +13,17 @@ interface Project {
 export default function Projects() {
   const projects: Project[] = [
     {
-      id: 1,
-      title: "Document manager",
+      id: 2,
+      title: "Lurevia Properties",
       description:
-        "Document manager is a powerful solution for managing documents and creating professional invoices in one place.",
-      image: "/portfolio/05.png",
-      githubUrl: "https://github.com/al-waheed/document-manager",
-      liveUrl: "https://savedoc.netlify.app/",
-      tags: ["React", "Redux Toolkit", "TailwindCss", "Vite"],
+        "LUREVIA Properties is a fictional premium real-estate brand focused on residential properties, property discovery, agents, and client enquiries.",
+      image: "/portfolio/Screenshot 2026-09-25 at 13.40.48.png",
+      githubUrl: "https://github.com/al-waheed/lurevia-properties",
+      liveUrl: "https://lureviaproperties.netlify.app/",
+      tags: ["React", "Lucide", "Typescript", "TailwindCss", "Vite"],
     },
     {
-      id: 2,
+      id: 3,
       title: "Groceries",
       description:
         "A modern and user-friendly eCommerce platform that connects people with clean, fresh, and healthy organic produce. Built for customers who love nature and care deeply about what they eat.",
@@ -39,6 +39,16 @@ export default function Projects() {
         "NodeJS",
         "Stripe Payment API",
       ],
+    },
+    {
+      id: 1,
+      title: "Document manager",
+      description:
+        "Document manager is a powerful solution for managing documents and creating professional invoices in one place.",
+      image: "/portfolio/05.png",
+      githubUrl: "https://github.com/al-waheed/document-manager",
+      liveUrl: "https://savedoc.netlify.app/",
+      tags: ["React", "Redux Toolkit", "TailwindCss", "Vite"],
     },
     {
       id: 4,
@@ -71,7 +81,7 @@ export default function Projects() {
       tags: ["React", "TailwindCss", "Vite", "Redux Toolkit", "Formik"],
     },
     {
-      id: 3,
+      id: 7,
       title: "Event Management Hub (Uncompleted)",
       description:
         "Event Management Hub is a simplified application to create, manage, and grow your events from registrations, verification to invitation.",
