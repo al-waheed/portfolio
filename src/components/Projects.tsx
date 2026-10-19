@@ -22,6 +22,27 @@ export default function Projects() {
       liveUrl: "https://lureviaproperties.netlify.app/",
       tags: ["React", "Lucide", "Typescript", "TailwindCss", "Vite"],
     },
+     {
+      id: 7,
+      title: "Noreva — Modern Digital Banking",
+      description:
+        "Noreva is a fintech web application built to simulate a modern digital banking experience for Nigerian users",
+      image: "/portfolio/16.png",
+      githubUrl: "https://github.com/al-waheed/Noreva-Modern-Digital-Banking",
+      liveUrl: "https://norevabank.netlify.app/",
+      tags: [
+        "React",
+        "Typescript",
+        "Redux Toolkit",
+        "Context API",
+        "TailwindCss",
+        "PostgreSQL",
+        "ExpressJS",
+        "NodeJS",
+        "JWT",
+        "Prisma ORM"
+      ],
+    },
     {
       id: 3,
       title: "Groceries",
