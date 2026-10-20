@@ -20,7 +20,7 @@ export default function Projects() {
       image: "/portfolio/landing.png",
       githubUrl: "https://github.com/al-waheed/lurevia-properties",
       liveUrl: "https://lureviaproperties.netlify.app/",
-      tags: ["React", "Lucide", "Typescript", "TailwindCss", "Vite"],
+      tags: ["React", "Lucide", "TypeScript", "TailwindCSS", "Vite"],
     },
      {
       id: 7,
@@ -29,13 +29,13 @@ export default function Projects() {
         "Noreva is a fintech web application built to simulate a modern digital banking experience for Nigerian users",
       image: "/portfolio/16.png",
       githubUrl: "https://github.com/al-waheed/Noreva-Modern-Digital-Banking",
-      liveUrl: "https://norevabank.netlify.app/",
+      liveUrl: "https://norevabank.vercel.app/",
       tags: [
         "React",
-        "Typescript",
+        "TypeScript",
         "Redux Toolkit",
         "Context API",
-        "TailwindCss",
+        "TailwindCSS",
         "PostgreSQL",
         "ExpressJS",
         "NodeJS",
@@ -54,7 +54,7 @@ export default function Projects() {
       tags: [
         "React",
         "Redux",
-        "TailwindCss",
+        "TailwindCSS",
         "MongoDB",
         "ExpressJS",
         "NodeJS",
@@ -69,13 +69,13 @@ export default function Projects() {
       image: "/portfolio/05.png",
       githubUrl: "https://github.com/al-waheed/document-manager",
       liveUrl: "https://savedoc.netlify.app/",
-      tags: ["React", "Redux Toolkit", "TailwindCss", "Vite"],
+      tags: ["React", "Redux Toolkit", "TailwindCSS", "Vite"],
     },
     {
       id: 4,
       title: "ArenaDrip",
       description:
-        "ArenaDrip is an E-commerce web app that facilitate online transactions of goods and services through means of the transfer of information and funds over the internet.",
+        "ArenaDrip is an E-commerce web app that facilitates online transactions of goods and services through means of the transfer of information and funds over the internet.",
       image: "/portfolio/02.jpg",
       githubUrl: "https://github.com/al-waheed/ArenaDrip",
       liveUrl: "https://arenadrip.netlify.app/",
@@ -95,15 +95,15 @@ export default function Projects() {
       id: 6,
       title: "Blog Hyper",
       description:
-        "Blog Hyper share Your Story with the World by creating, editing, and sharing beautiful blog posts, adding comments, expressing your thoughts, and connecting with readers around the globe.",
+        "Blog Hyper: Share Your Story with the World by creating, editing, and sharing beautiful blog posts, adding comments, expressing your thoughts, and connecting with readers around the globe.",
       image: "/portfolio/01.png",
       githubUrl: "https://github.com/al-waheed/blog",
       liveUrl: "https://bloghyper.netlify.app/",
-      tags: ["React", "TailwindCss", "Vite", "Redux Toolkit", "Formik"],
+      tags: ["React", "TailwindCSS", "Vite", "Redux Toolkit", "Formik"],
     },
     {
       id: 7,
-      title: "Event Management Hub (Uncompleted)",
+      title: "Event Management Hub (Incomplete)",
       description:
         "Event Management Hub is a simplified application to create, manage, and grow your events from registrations, verification to invitation.",
       image: "/portfolio/9.png",
@@ -112,7 +112,7 @@ export default function Projects() {
       tags: [
         "React",
         "React Query",
-        "TailwindCss",
+        "TailwindCSS",
         "Vite",
         "Formik",
         "Firebase",
